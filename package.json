@@ -1,7 +1,6 @@
 {
   "name": "blue-mon-tues-server-challenge",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,5 +20,14 @@
     "pg": "^8.3.2",
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.21.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvanarsdall/server-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rvanarsdall/server-challenge/issues"
+  },
+  "homepage": "https://github.com/rvanarsdall/server-challenge#readme",
+  "description": ""
 }

@@ -1,0 +1,22 @@
+BRONZE DESCRIPTION:
+    Design a '/user/create' endpoint that will let the user
+    send a new user object through the server to the database. If successful,
+    the server should store the user object sent in the database, and send
+    a response to the user with a 200 status code and the user
+    object just saved.  If the operation fails, the 
+    server should respond with a 500 status code and an error
+    message back.
+    
+    Note :: You do not need to use bcrypt.
+    
+    Acceptence criteria:
+    1. body of request should have username and password
+    2. If success an the object should look like the following
+    
+    {
+    "id": 1,
+    "username": "test@test.com",
+    "password": "password",
+    "updatedAt": "2021-07-25T03:58:23.901Z",
+    "createdAt": "2021-07-25T03:58:23.901Z"
+}
