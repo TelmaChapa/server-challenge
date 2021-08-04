@@ -1,4 +1,4 @@
-module.exports = function(sequelize, DataTypes){
+module.exports = function (sequelize, DataTypes) {
   return sequelize.define('animal', {
     name: {
       type: DataTypes.STRING,
@@ -10,6 +10,10 @@ module.exports = function(sequelize, DataTypes){
     },
     predator: {
       type: DataTypes.BOOLEAN,
+      allowNull: false
+    },
+    userId: {
+      type: DataTypes.INTEGER,
       allowNull: false
     }
   })
